@@ -4,8 +4,9 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-     <link rel="icon" href="data:,">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap" rel="stylesheet">
     <!-- jquery -->
     <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js"></script>  
@@ -16,7 +17,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
 
-    <link rel="stylesheet" href="{{url_for('static', filename='main.css')}}">
+    <link rel="stylesheet" href="main.css">
     <script>
         $(document).ready(function() {
         console.log()
@@ -34,8 +35,22 @@
   <body>
    
     <div class="container">   
-        <header>HAPPY BIRTHDAY KARIM</header>
+        <div id="home">
+          <a class="btn btn-primary" href="#hbd" role="button">click here for a surprise...</a>
+        </div>
+        <div id="hbd">
+          <p>HAPPY BIRTHDAY KARIM!!!</p>
+          <div class="arrow">
+            <a href="#pics">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="#65fff2" class="bi bi-arrow-down" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z"/>
+                </svg>
+            </a>
+          </div> 
+        </div>
+      
     </div>
+
 
   </body>
 </html>

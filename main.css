@@ -1,0 +1,51 @@
+html {
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #001418;
+}
+.btn-primary{
+    
+    background-color: #65fff2;
+    border-color: #65fff2;
+    color: #001418;
+    padding: 2%;
+    font-family: "Reenie Beanie", cursive;
+    font-size: 50px;
+    border-radius: 20px;
+    transition: all .5s ease-in-out;
+}
+.btn-primary:hover{
+    background-color: #11e9d7;
+    border-color: #11e9d7;
+    color: #001418;
+    font-family: "Reenie Beanie", cursive;
+    transform: scale(1.1);
+    text-decoration: none;
+
+}
+
+#home{
+    text-align: center;
+    margin-top: 25%;
+    margin-bottom: 25%;
+}
+
+
+#hbd{
+    text-align: center;
+    padding: 3%;
+    font-size: 150px;
+    color: #65fff2;
+}    
+
+.arrow{
+    margin-right: auto;
+    margin-left: auto;
+    width: 50px;
+    transition: all .5s ease-in-out;
+}
+
+.arrow:hover{
+    transform: scale(1.3);
+}
