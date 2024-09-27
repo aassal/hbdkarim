@@ -71,9 +71,10 @@ p{
 }
 
 .photo-grid{
-    height: 95vh;
-    margin-top: 2.5vh;
-    margin-bottom: 2.5vh;
+    height: 70vh;
+    /* margin-top: 2.5vh;
+    margin-bottom: 2.5vh; */
+    /* overflow: hidden; */
     border: #65fff2 solid;
     align-items: center;
     justify-content: center;
@@ -84,8 +85,25 @@ p{
 
 }
 .col:hover{
-    transform: scale(1.5);
+    transform: scale(1.2);
 }
+.row>* {
+    padding: 1px;
+}
+#overlay1 {
+    position: fixed;
+    display: none;
+    padding: 50px;
+    width: 10px;
+    height: 10px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2;
+    cursor: pointer;
+  }
 /* 
 .confetti-container {
     width: 100%;
