@@ -11,7 +11,7 @@ body{
     border-color: #65fff2;
     color: #001418;
     padding: 2%;
-    font-family: "Reenie Beanie", cursive;
+    font-family: "Archivo Black", sans-serif;
     font-size: 50px;
     border-radius: 20px;
     transition: all .5s ease-in-out;
@@ -20,7 +20,7 @@ body{
     background-color: #11e9d7;
     border-color: #11e9d7;
     color: #001418;
-    font-family: "Reenie Beanie", cursive;
+    font-family: "Archivo Black", sans-serif;
     transform: scale(1.1);
     text-decoration: none;
 
@@ -34,8 +34,9 @@ body{
 }
 
 #hbd{
+    font-family: "Archivo Black", sans-serif;
     text-align: center;
-    padding: 3%;
+    padding: 1%;
     color: #65fff2;
     margin-bottom: 0px;
     text-align: center;
@@ -44,7 +45,7 @@ body{
     color: transparent;
     -moz-background-clip: text;
     -webkit-background-clip: text;
-    height: 100vh;
+    height: 95vh;
     font-size: 150px;
 
 }
@@ -56,12 +57,13 @@ body{
     text-align: center;
     margin-top: 25%;
     margin-bottom: 25%;
-    height: 100vh;
+    height: 95vh;
     font-size: 80px;
 
 }
 
 p{
+    font-family: "Archivo Black", sans-serif;
     text-align: center;
     padding: 3%;
     color: #65fff2;
@@ -80,17 +82,45 @@ p{
 }
 
 .photo-grid{
-    height: 70vh;
-    /* margin-top: 2.5vh;
-    margin-bottom: 2.5vh; */
-    /* overflow: hidden; */
-    border: #65fff2 solid;
+    height: 88vh;
     align-items: center;
     justify-content: center;
     text-align: center;
 }
+#fourth{
+    /* display: flex;
+    flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    height: 95vh; 
+}
+#fifth content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 45%;
+    margin-bottom: 5%;
+    height: 95vh;
+    font-size: 80px;
+}
+.end{
+    font-size: 20px;
+    font-family: "Archivo Black", sans-serif;
+    text-align: center;
+    padding: 3%;
+    color: #65fff2;
+    margin-bottom: 0px;
+}
 .col{
     transition: all .5s ease-in-out;
+    height: 150px;
+    width: 200px;
+    overflow: hidden;
 
 }
 .col:hover{
@@ -144,8 +174,6 @@ background-color: #ebfc00; left: 90%; animation-delay: -3.5s;
 .confetti:nth-child(10) {
 background-color: #00ff73; left: 100%; animation-delay: -2.5s;
 }
-
-
 
 @keyframes confetti {
 0% { transform: rotateZ(15deg) rotateY(0deg) translate(0,0); }
